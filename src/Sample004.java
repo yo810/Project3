@@ -1,3 +1,5 @@
+//1〜10までに偶数が何個あるか、また偶数の合計は幾つになるか表示させる
+
 public class Sample004 {
 	public static void main(String[] args) {
 		int sum = 0;
@@ -6,7 +8,7 @@ public class Sample004 {
 		for(int i = 1; i<= 10; i++) {
 			if(i % 2 == 0) {
 				sum += i;
-//				下記追加　カウントを+1
+//				下記追加　カウントをインクリメント+1
 				cnt ++;
 			}
 		}
